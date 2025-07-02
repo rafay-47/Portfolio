@@ -35,14 +35,14 @@ export function Testimonial() {
                 color="blue-gray"
                 className="mb-6 font-bold"
               >
-                "Exceptional Technical Skills & Professional Approach"
+                &quot;Exceptional Technical Skills &amp; Professional Approach&quot;
               </Typography>
               <Typography className="mb-6 text-lg font-normal !text-gray-600 italic">
-                "Abdul Rafay demonstrated exceptional skills during his internship at InternnCraft. 
+                &quot;Abdul Rafay demonstrated exceptional skills during his internship at InternnCraft. 
                 His proficiency in Flutter development, Firebase integration, and ability to 
                 implement CI/CD pipelines impressed the entire team. He consistently delivered 
                 high-quality code and showed great problem-solving abilities. A dedicated and 
-                talented developer with strong potential for growth."
+                talented developer with strong potential for growth.&quot;
               </Typography>
               <div className="border-t border-gray-200 pt-6">
                 <Typography variant="h6" color="blue-gray" className="mb-1 font-semibold">
@@ -70,13 +70,13 @@ export function Testimonial() {
                 color="blue-gray"
                 className="mb-6 font-bold"
               >
-                "Outstanding Academic Performance & Innovation"
+                &quot;Outstanding Academic Performance &amp; Innovation&quot;
               </Typography>
               <Typography className="mb-6 text-lg font-normal !text-gray-600 italic">
-                "Abdul Rafay has consistently shown excellence in his computer science studies at FAST NUCES. 
+                &quot;Abdul Rafay has consistently shown excellence in his computer science studies at FAST NUCES. 
                 His projects, particularly in AI/ML and mobile development, demonstrate both technical proficiency 
                 and creative problem-solving. His work on the LeafSpec plant classification app and MLOps 
-                environmental monitoring system showcases his ability to apply theoretical knowledge to real-world challenges."
+                environmental monitoring system showcases his ability to apply theoretical knowledge to real-world challenges.&quot;
               </Typography>
               <div className="border-t border-gray-200 pt-6">
                 <Typography variant="h6" color="blue-gray" className="mb-1 font-semibold">

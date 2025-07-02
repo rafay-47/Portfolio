@@ -112,7 +112,7 @@ export function ContactForm() {
                 className="mx-auto mb-8 text-base !text-gray-500"
               >
                 Feel free to reach out for project collaborations or opportunities. 
-                I'll get back to you within 24 hours.
+                I&apos;ll get back to you within 24 hours.
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
@@ -151,7 +151,7 @@ export function ContactForm() {
                     Message sent successfully! 
                   </Typography>
                   <Typography color="white">
-                    Thank you for reaching out. I'll get back to you within 24 hours.
+                    Thank you for reaching out. I&apos;ll get back to you within 24 hours.
                   </Typography>
                 </Alert>
               )}
