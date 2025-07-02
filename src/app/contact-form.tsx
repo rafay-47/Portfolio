@@ -97,7 +97,7 @@ export function ContactForm() {
           className="mx-auto w-full lg:w-5/12 !text-gray-500"
         >
           Ready to start a project or just want to chat? Feel free to reach out 
-          through the contact form, and let's discuss how we can work together.
+          through the contact form, and let&apos;s discuss how we can work together.
         </Typography>
       </div>
       <div>
