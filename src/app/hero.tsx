@@ -36,7 +36,7 @@ function Hero() {
             className="mb-6 lg:text-5xl !leading-tight text-3xl font-bold"
           >
             Welcome to{" "}
-            <span className="gradient-text">Abdul Rafay's</span>
+            <span className="gradient-text">Abdul Rafay&apos;s</span>
             <br />
             Software Engineering Portfolio!
           </Typography>
@@ -45,7 +45,7 @@ function Hero() {
             variant="lead"
             className="mb-8 !text-gray-600 md:pr-16 xl:pr-28 leading-relaxed"
           >
-            I'm Abdul Rafay, a Computer Science student at FAST NUCES, Islamabad, and 
+            I&apos;m Abdul Rafay, a Computer Science student at FAST NUCES, Islamabad, and 
             a passionate Full-Stack Software Engineer from Rawalpindi, Pakistan. 
             Specializing in AI/ML, mobile app development, and web technologies with 
             hands-on experience in Flutter, .NET, Python, and the MERN stack.

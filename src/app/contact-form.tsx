@@ -83,7 +83,7 @@ export function ContactForm() {
           className="mx-auto w-full lg:w-5/12 !text-gray-600"
         >
           Ready to start a project or just want to chat? Feel free to reach out 
-          through the contact form, and let's discuss how we can work together.
+          through the contact form, and let&apos;s discuss how we can work together.
         </Typography>
       </div>
 
@@ -100,7 +100,7 @@ export function ContactForm() {
                 className="mb-10 text-gray-300 leading-relaxed"
               >
                 Feel free to reach out for project collaborations or opportunities. 
-                I'll get back to you within 24 hours.
+                I&apos;ll get back to you within 24 hours.
               </Typography>
 
               <div className="space-y-6 mb-12">
@@ -185,7 +185,7 @@ export function ContactForm() {
                     Message sent successfully! 
                   </Typography>
                   <Typography color="white">
-                    Thank you for reaching out. I'll get back to you within 24 hours.
+                    Thank you for reaching out. I&apos;ll get back to you within 24 hours.
                   </Typography>
                 </Alert>
               )}
