@@ -54,16 +54,37 @@ export function ContactForm() {
     setSubmitStatus(null);
 
     try {
-      // Simulate form submission for demo
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      setSubmitStatus("success");
-      setFormData({
-        firstName: "",
-        lastName: "",
-        email: "",
-        message: "",
-        interestType: "Web Development"
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "YOUR_ACCESS_KEY_HERE",
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          message: `Interest: ${formData.interestType}\n\nMessage: ${formData.message}`,
+          subject: `Portfolio Contact: ${formData.interestType} Inquiry from ${formData.firstName}`,
+          from_name: `${formData.firstName} ${formData.lastName}`,
+        }),
       });
+
+      const result = await response.json();
+      
+      if (result.success) {
+        console.log("Form submitted successfully:", result);
+        setSubmitStatus("success");
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          message: "",
+          interestType: "Web Development"
+        });
+      } else {
+        throw new Error(result.message || "Form submission failed");
+      }
     } catch (error) {
       console.error("Form submission error:", error);
       setSubmitStatus("error");
